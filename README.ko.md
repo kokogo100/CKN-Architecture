@@ -21,7 +21,14 @@
 
 ## 1. 요약 (Executive Summary)
 
-**CKN (Contextual Knowledge Network)**은 **[주식회사 에이엑스엔엘아이(`AXNli Inc.`)](https://axnli.com)**가 창안한(공식 발표일: 2026년 1월 1일) 범용 인지 컴포넌트(Cognitive Component) 아키텍처입니다.
+**CKN (Contextual Knowledge Network)**은 **[주식회사 에이엑스엔엘아이(`AXNli Inc.`)](https://axnli.com)**가 **2025년 12월** 독자 창안하여 공개한(최초 공개 커밋: 2025년 12월 18일~27일 / 백서 v2.1 개정: 2026년 1월 1일) 범용 인지 컴포넌트(Cognitive Component) 아키텍처입니다.
+
+> 📌 **선행 연구 및 최초 공개 시점 암호학적 증명 (Prior Art & Git Timestamp: 2025년 12월)**  
+> CKN의 핵심 개념(해마 모사 4계층 기억, 프랙탈 태그 상태 점수화, 의도적 모순 `A ≠ B` 기반 `"왜?(Why?)"` 능동 추론 트리거, 초경량 A2A 온톨로지 통신)은 2026년 이후 학계에 등장한 유사 연구들보다 앞선 **2025년 12월**에 독자적으로 설계되어 GitHub 공인 타임스탬프(SHA-1 해시)로 기록되어 있습니다:
+> * **2025-12-18 (`2406e04`)**: [최초 아키텍처 및 MCP 공개 커밋 (`2406e0405f94a1ffdd5e742ecbd525c40293d7ab`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/2406e0405f94a1ffdd5e742ecbd525c40293d7ab)
+> * **2025-12-27 (`d8b3544`)**: [영문 백서 v1.0: 4계층 기억, 의도적 모순(`Algorithm 1`), A2A 프로토콜 공개 (`d8b3544cc997bc268efcb3de2699c55392c94b43`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/d8b3544cc997bc268efcb3de2699c55392c94b43)
+> * **2025-12-29 (`920d104`)**: [엔터프라이즈 아키텍처 백서 v2.0 고도화 (`920d10468509130ff682273d9b38c0b4026c7500`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/920d10468509130ff682273d9b38c0b4026c7500)
+> * **2026-01-02 (`f094b17`)**: [CKN 글로벌 백서 v2.1 통합본 공개 (`f094b17bd308348f3ba2168bd9cdc69aaa31e21e`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/f094b17bd308348f3ba2168bd9cdc69aaa31e21e)
 
 오늘날 AI 산업이 직면한 핵심 과제는 두 가지입니다:
 1. **데이터센터 확장의 한계**: 더 많은 GPU와 막대한 전력 소비
@@ -113,7 +120,7 @@ CKN은 특정 분야의 규칙을 하드코딩하지 않고 추상화된 태그�
 연구, 기술 문서, 또는 제품 개발에서 **`CKN` 아키텍처 이론**을 인용하거나 응용하실 때는 아래와 같이 출처를 명시해 주시기 바랍니다.
 
 * **창안 및 설계 (Originated by)**: **[주식회사 에이엑스엔엘아이 (`AXNli Inc.`)](https://axnli.com)**
-* **최초 발표일**: 2026년 1월 1일
+* **최초 공개일 (Prior Art Timestamp)**: 2025년 12월 18일 ~ 12월 27일 (Git SHA [`d8b3544`](https://github.com/kokogo100/ragalgo-mcp-server/commit/d8b3544cc997bc268efcb3de2699c55392c94b43)) / v2.1 개정 2026년 1월 1일
 * **공식 이론 페이지**: [https://axnli.com/ckn-theory/](https://axnli.com/ckn-theory/)
 * **연계 후속 이론**: **[CKD 이론 (`CKD-Architecture`)](https://github.com/kokogo100/CKD-Architecture)** ([https://axnli.com/ckd-theory/](https://axnli.com/ckd-theory/))
-* **라이선스**: MIT License (© 2026 AXNli Inc.)
+* **라이선스**: MIT License (© 2025-2026 AXNli Inc.)

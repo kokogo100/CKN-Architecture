@@ -21,7 +21,14 @@
 
 ## 1. Executive Summary
 
-**CKN (Contextual Knowledge Network)** is a cognitive component architecture originated by **[AXNli Inc.](https://axnli.com)** (first published January 1, 2026) designed to enable general-purpose AI and compact Small Language Models (SLMs) to reason proactively like human experts.
+**CKN (Contextual Knowledge Network)** is a cognitive component architecture independently originated by **[AXNli Inc.](https://axnli.com)** in **December 2025** (initial public Git commits: December 18-27, 2025; v2.1 whitepaper edition: January 1, 2026), designed to enable general-purpose AI and compact Small Language Models (SLMs) to reason proactively like human experts.
+
+> 📌 **Prior Art & Cryptographic Git Timestamp Proof (December 2025)**  
+> The core concepts of CKN (4-layer hippocampal memory, fractal semantic tag scoring, intentional contradiction `A ≠ B` as an active `"Why?"` reasoning trigger, and ultra-compact A2A ontology communication) were independently designed and publicly committed to GitHub in **December 2025**, prior to subsequent 2026 papers exploring similar themes:
+> * **2025-12-18 (`2406e04`)**: [Initial Public Architecture & MCP Commit (`2406e0405f94a1ffdd5e742ecbd525c40293d7ab`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/2406e0405f94a1ffdd5e742ecbd525c40293d7ab)
+> * **2025-12-27 (`d8b3544`)**: [Whitepaper v1.0: 4-Layer Memory, Intentional Contradiction (`Algorithm 1`), & A2A Protocol (`d8b3544cc997bc268efcb3de2699c55392c94b43`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/d8b3544cc997bc268efcb3de2699c55392c94b43)
+> * **2025-12-29 (`920d104`)**: [Enterprise Whitepaper v2.0 Upgrade (`920d10468509130ff682273d9b38c0b4026c7500`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/920d10468509130ff682273d9b38c0b4026c7500)
+> * **2026-01-02 (`f094b17`)**: [CKN Whitepaper v2.1 Global Edition (`f094b17bd308348f3ba2168bd9cdc69aaa31e21e`)](https://github.com/kokogo100/ragalgo-mcp-server/commit/f094b17bd308348f3ba2168bd9cdc69aaa31e21e)
 
 The modern AI industry faces two fundamental challenges:
 1. **Datacenter Scaling Bottlenecks**: Ever-larger GPU clusters and unsustainable power consumption.
@@ -113,15 +120,16 @@ When multiple AI agents communicate in verbose natural language, token costs exp
 If you reference **CKN Theory** in research, articles, or software systems, please cite:
 
 ```bibtex
-@misc{axnli2026ckn,
+@misc{axnli2025ckn,
   title  = {CKN (Contextual Knowledge Network): Using Contradiction and Alignment as Triggers for Independent AI Reasoning},
   author = {AXNli Inc.},
-  year   = {2026},
-  note   = {First published January 1, 2026},
+  year   = {2025},
+  note   = {First publicly committed December 18-27, 2025 (Git SHA: d8b3544cc997bc268efcb3de2699c55392c94b43); v2.1 edition January 1, 2026},
   url    = {https://axnli.com/ckn-theory/}
 }
 ```
 
 * **Originated by**: **[AXNli Inc. (`주식회사 에이엑스엔엘아이`)](https://axnli.com)**
+* **First Public Timestamp**: December 2025 (Git SHA [`d8b3544`](https://github.com/kokogo100/ragalgo-mcp-server/commit/d8b3544cc997bc268efcb3de2699c55392c94b43))
 * **Related Architecture**: **[CKD Theory (`CKD-Architecture`)](https://github.com/kokogo100/CKD-Architecture)**
-* **License**: MIT License (© 2026 AXNli Inc.)
+* **License**: MIT License (© 2025-2026 AXNli Inc.)
